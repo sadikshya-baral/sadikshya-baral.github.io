@@ -205,6 +205,7 @@ function startBall () {
 	 direction = -1;
   } // else
   
+  // random speed
   if (rand == 0) {
 	 topSpeedOfBall = Math.random() * 2 + 3; // 3-4.999
 	 leftSpeedOfBall = direction * (Math.random() * 2 + 3);
