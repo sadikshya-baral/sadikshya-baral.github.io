@@ -331,6 +331,10 @@ function startGame () {
   document.getElementById("score2").innerHTML = score1;
   positionOfPaddle1 = startPositionOfPaddle1;
   positionOfPaddle2 = startPositionOfPaddle2;
+  counter = 0;
+  counter2 = 0;
+  counter3 = 0;
+  counter4 = 0;
  
  startBall();
 	
