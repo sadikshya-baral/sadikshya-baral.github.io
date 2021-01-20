@@ -367,7 +367,7 @@ function stopGame() {
 // explain special abilities
 function abilities() {
   let message1 = "";
-  let message2 = "You can increase your paddle's height only 3 times. Player 1, press 'A'. Player 2, press 'left arrow'. You can stop you opponent's paddle, only once, by pressing, 'D' (player 1), 'right arrow' (player 2).";
+  let message2 = "You can increase your paddle's height, 3 times total in the game. Player 1, press 'A'. Player 2, press 'left arrow'. You can stop you opponent's paddle, only once, by pressing, 'D' (player 1), 'right arrow' (player 2).";
 	
   showLightBox(message1, message2);
 } // instructions 
