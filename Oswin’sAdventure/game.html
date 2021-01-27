@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oswin’s Adventure</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    
+  </head>
+  
+  <body>	
+	  <div id="controlpanel">
+	     <div onclick="pauseGame()" id="pause" class="controls">Pause Game</div>
+		 <div onclick="resumeGame()" id="resume" class="controls">Resume Game</div>
+	  </div>
+	  
+	  
+	  <div id="lives">
+		  <img src="images/heart.png" alt="heart" class="hearts" id="heart1">
+		  <img src="images/heart.png" alt="heart" class="hearts" id="heart2">
+		  <img src="images/heart.png" alt="heart" class="hearts" id="heart3">
+	  </div>
+	  
+      <div id ="gameBoard">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+	  </div>
+	  
+	  <div class="message" id="levelup">Next level...</div>
+	  <div class="message" id="lose">You lost! 
+		<a href="game.html" class="control" id="restart">Restart Game</a>
+	  </div>
+	  <div class="message" id="endgame">This game ended!</div>
+	  
+	  <!-- lightbox -->
+	  <div id="lightbox" class="hidden"></div>
+	
+	  <div id="positionMessage">
+		<div id="boundaryMessage" class="hidden">
+			<img id="x" src="images/x.png" alt="close" onclick="continueGame()">
+			<h1 class="titletext" id="message">&nbsp;</h1>
+			<p class="titletext" id="message2"></p>
+			
+		</div>
+	  </div>
+   
+    <script src="game.js"></script>
+  </body>
+  
+</html>
