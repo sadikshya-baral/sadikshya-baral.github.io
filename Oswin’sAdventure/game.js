@@ -63,7 +63,7 @@ const levels = [
 
 const gridBoxes = document.querySelectorAll("#gameBoard div");
 const noPassObstacles = ["rock", "tree", "lava"];
-var currentLevel = 4; // starting level
+var currentLevel = 0; // starting level
 var keyOn = false; // is the riser on?
 var currentLocationOfPlayer = 0;
 var currentAnimation;
