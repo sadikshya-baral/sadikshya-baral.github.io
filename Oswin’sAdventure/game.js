@@ -49,10 +49,10 @@ const levels = [
 		
 		
 	  //  level 4
-	  ["", "tree", "", "tree", "", "door", "", "tree", "", "",
-	    "", "", "", "", "ice", "ice", "ice", "", "", "",
+	  ["", "tree", "", "", "tree", "door", "tree", "", "", "",
+	    "", "", "", "tree", "", "ice", "", "tree", "", "",
 		"", "tree", "", "tree", "animate", "animate", "animate", "", "", "",
-		"playerright", "", "", "", "", "", "ice", "", "", "",
+		"playerright", "", "", "", "", "", "tree", "", "", "",
 		"", "", "", "", "tree", "", "ice", "", "heart2", "",
 		"tree", "", "tree", "", "", "", "tree", "", "", "",
 	    "", "", "", "", "", "", "tree", "", "", "",
@@ -63,7 +63,7 @@ const levels = [
 
 const gridBoxes = document.querySelectorAll("#gameBoard div");
 const noPassObstacles = ["rock", "tree", "lava"];
-var currentLevel = 0; // starting level
+var currentLevel = 4; // starting level
 var keyOn = false; // is the riser on?
 var currentLocationOfPlayer = 0;
 var currentAnimation;
